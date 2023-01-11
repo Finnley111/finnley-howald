@@ -6,17 +6,10 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-.section {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 * {
     margin: 0;
     box-sizing: border-box;
+    color: white;
     /* font-family: 'Raleway'; */
 }
   
@@ -38,16 +31,12 @@ body {
     background-size: cover;
 }
   
-h1 {
-    color: white;
-    font-size: calc(1rem + 8vw);
-    font-family: 'Work Sans', sans-serif;
-    /* font-family: 'Philosophy'; */
-    font-weight: 900;
-}
-  
 h1 span {
     background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(255, 255, 255, 0.3) 35%)
+    font-size: calc(1rem + 8vw);
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Philosophy';
+    font-weight: 900;
 }
   
 .screen {
