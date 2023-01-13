@@ -20,17 +20,41 @@ contactMeBtn.addEventListener("click", function(){
     window.scrollBy(0, 3 * window.innerHeight);
 });
 
-educationBtn.addEventListener("click", function(){
-    educationBtn.classList.toggle("after-click");
-    console.log("clicked")
+educationBtn.addEventListener("click", function(e){
+    if (e.target == e.currentTarget) {
+        educationBtn.classList.toggle("after-click");
+        console.log("clicked")
+        if(interestsBtn.classList.contains('after-click')) {
+            interestsBtn.classList.toggle("after-click");
+        }
+        if(awardsBtn.classList.contains('after-click')) {
+            awardsBtn.classList.toggle("after-click");
+        }
+    }
 });
 
-interestsBtn.addEventListener("click", function(){
-    educationBtn.classList.toggle("after-click");
-    console.log("clicked")
+interestsBtn.addEventListener("click", function(e){
+    if (e.target == e.currentTarget) {
+        interestsBtn.classList.toggle("after-click");
+        console.log("clicked")
+        if(educationBtn.classList.contains('after-click')) {
+            educationBtn.classList.toggle("after-click");
+        }
+        if(awardsBtn.classList.contains('after-click')) {
+            awardsBtn.classList.toggle("after-click");
+        }
+    }
 });
 
-interestsBtn.addEventListener("click", function(){
-    interestsBtn.classList.toggle("after-click");
-    console.log("clicked")
+awardsBtn.addEventListener("click", function(e){
+    if (e.target == e.currentTarget) {
+        awardsBtn.classList.toggle("after-click");
+        console.log("clicked")
+        if(educationBtn.classList.contains('after-click')) {
+            educationBtn.classList.toggle("after-click");
+        }
+        if(interestsBtn.classList.contains('after-click')) {
+            interestsBtn.classList.toggle("after-click");
+        }
+    }
 });
