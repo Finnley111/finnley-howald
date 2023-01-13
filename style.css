@@ -15,6 +15,7 @@ h1 {
     /* letter-spacing: 1rem; */
     /* font-family: 'Philosophy'; */
     font-weight: 900;
+    transition: 750ms ease-in-out;
     
 }
 
@@ -34,7 +35,7 @@ h1 {
     display: flex;
     flex-direction: column;
     /* justify-content: flex-start; */
-    top: 20%;
+    top: 5%;
     /* left: 50%; */
 }
 
@@ -54,7 +55,6 @@ h1 {
 .section:nth-child(2) {
     box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
     background-color: #e50b0b;
-    
     color: #fff;
     top: 100vh;
     z-index: 2;
@@ -93,11 +93,9 @@ h1 {
 .btn-main {
     border-radius:0px;
     color: white;
-    background-color: black;
-    border-color: black;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     /* padding: 0.5em 1em; */
-    width: 200px;
-    height: 200px;
     font-size: 1.5em;
     margin: 0.5em;
     /* responsive */
@@ -106,11 +104,26 @@ h1 {
     height:10vw;
     min-width: 100px;
     min-height: 100px;
-    font-size:calc(0.75em + 1.0vw);
+    font-size:calc(0.2em + 1.0vw);
     margin: 0.5vw;
+    border-style: solid;
+    border-width: 0.3em;
     transition: 750ms ease-in-out;
+    /* font */
+    font-family: "Poppins";
+    text-transform: uppercase;
 }
 
+.btn-main:hover {
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+    border-radius: 300px;
+    border-color: white;
+    cursor: cell;
+    transform: translateY(-25%);
+    font-weight: 500;
+}
 
 /* Down Arrow in Btn */
 .arrow {
