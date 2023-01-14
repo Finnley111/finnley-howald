@@ -5,6 +5,7 @@ const contactMeBtn = document.getElementById("contact-me");
 const educationBtn = document.getElementById("education-btn");
 const interestsBtn = document.getElementById("interests-btn");
 const awardsBtn = document.getElementById("awards-btn");
+const secondSection = document.getElementById("second-page");
 
 
 aboutMeBtn.addEventListener("click", function(){
@@ -30,7 +31,9 @@ educationBtn.addEventListener("click", function(e){
         if(awardsBtn.classList.contains('after-click')) {
             awardsBtn.classList.toggle("after-click");
         }
+        secondSection.style.backgroundColor = 'green';
     }
+    
 });
 
 interestsBtn.addEventListener("click", function(e){
