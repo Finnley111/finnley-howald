@@ -81,8 +81,35 @@ hr{
 }
 
 header{
-    width: 95vw;
+    width: 97vw;
     position: relative;
-    padding-right: 10%;
-    left: 5%;
+    padding-right: 7%;
+    left: 3%;
+    margin-top:calc(25px + 6vh);
 }
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #0a0a0c;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+  
