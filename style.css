@@ -23,6 +23,17 @@ h2{
     font-size: clamp(13px,1.5vw,2vw);
 }
 
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    /* text-transform: uppercase; */
+    color: whitesmoke;
+    margin-top: 2%;
+    font-size: clamp(20px,2vw,3vw);
+    align-items: center;
+}
+
 #header-container {
     display: flex;
     position: relative;
@@ -92,6 +103,7 @@ header{
 .navbar {
     overflow: hidden;
     background-color: #0a0a0c;
+    background-color: blue;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -100,16 +112,22 @@ header{
 /* Links inside the navbar */
 .navbar a {
     float: left;
-    display: block;
+    display: flex;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    /* text-align: center; */
+    /* padding: 14px 16px; */
     text-decoration: none;
 }
   
 /* Change background on mouse-over */
-.navbar a:hover {
+/* .navbar a:hover {
     background: #ddd;
     color: black;
 }
-  
+   */
+
+#logo{
+    width: 5vw;
+    min-width: 55px;
+    object-fit: cover;
+}
