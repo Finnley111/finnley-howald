@@ -34,6 +34,16 @@ h3{
     align-items: center;
 }
 
+h4{
+    font-family: "Work Sans";
+    font-weight: 600;
+    display: flex;
+    /* text-transform: uppercase; */
+    color: whitesmoke;
+    /* margin-top: 2%; */
+    font-size: clamp(13px,0.9vw,1.5vw);
+}
+
 #header-container {
     display: flex;
     position: relative;
@@ -89,34 +99,48 @@ hr{
     height: 0.5vh;
     max-height: 4px;
     opacity: 1;
+    width: 94vw;
+    position: relative;
+    left: 3%;
+}
+
+#menu-hr{
+    margin-top: 5%;
+    margin-bottom: 1.5%;
 }
 
 header{
     width: 97vw;
+    margin-top:calc(50px + 5%);
+}
+
+.page-head{
     position: relative;
-    padding-right: 7%;
     left: 3%;
-    margin-top:calc(25px + 6vh);
 }
 
 /* The navigation bar */
-.navbar {
+.navbar1 {
     overflow: hidden;
     background-color: #0a0a0c;
     background-color: blue;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    
   }
   
 /* Links inside the navbar */
-.navbar a {
+.navbar1 a {
+    position: relative;
     float: left;
+    left: 2.2%;
     display: flex;
     color: #f2f2f2;
     /* text-align: center; */
     /* padding: 14px 16px; */
     text-decoration: none;
+    
 }
   
 /* Change background on mouse-over */
@@ -129,5 +153,14 @@ header{
 #logo{
     width: 5vw;
     min-width: 55px;
+    padding: 0px;
     object-fit: cover;
+}
+
+#under-menu{
+    position: relative;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4%;
 }
