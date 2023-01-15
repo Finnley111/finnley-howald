@@ -123,7 +123,7 @@ header{
 .navbar1 {
     overflow: hidden;
     background-color: #0a0a0c;
-    background-color: blue;
+    /* background-color: blue; */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -131,7 +131,7 @@ header{
   }
   
 /* Links inside the navbar */
-.navbar1 a {
+.left-menu{
     position: relative;
     float: left;
     left: 2.2%;
@@ -142,13 +142,22 @@ header{
     text-decoration: none;
     
 }
-  
-/* Change background on mouse-over */
-/* .navbar a:hover {
-    background: #ddd;
-    color: black;
+
+.right-menu{
+    position: relative;
+    float: right;
+    right: 3%;
+    margin-top: 1%;
+    display: flex;
+    color: #f2f2f2;
+    text-decoration: none;
+    
 }
-   */
+
+.menu-a{
+    position: relative;
+    margin-left: 50% !important;
+}
 
 #logo{
     width: 5vw;
@@ -163,4 +172,8 @@ header{
     display: flex;
     flex-direction: row;
     column-gap: 4%;
+}
+
+.menu-btn{
+    
 }
