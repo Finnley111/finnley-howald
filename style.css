@@ -61,17 +61,17 @@ ul{
     display: flex;
     flex-direction: column;
     color: whitesmoke;
-    font-size: clamp(20px,2vw,3vw);
+    font-size: clamp(20px,1.5vw,3vw);
     /* align-items: center; */
 }
 
 .medium{
-    font-size: clamp(20px,3vw,4vw);
+    font-size: clamp(20px,2vw,4vw);
 }
 
 .large{
     display: flex;
-    font-size: 5vw;
+    font-size: 4vw;
     flex-wrap: wrap;
 }
 
