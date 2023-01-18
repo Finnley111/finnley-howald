@@ -6,6 +6,13 @@
 // const interestsBtn = document.getElementById("interests-btn");
 // const awardsBtn = document.getElementById("awards-btn");
 // const secondSection = document.getElementById("second-page");
+const learnMoreBtn = document.getElementById("learn-more");
+const aboutMeDiv = document.getElementById("about-me-div");
+
+learnMoreBtn.addEventListener("click", function(){
+    aboutMeDiv.scrollIntoView();
+    console.log("clicked")
+});
 
 
 // aboutMeBtn.addEventListener("click", function(){
