@@ -5,28 +5,24 @@ body{
 }
 
 h1{
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Open Sans",'Work Sans', sans-serif;
     font-size: clamp(40px,3vw,4vw);
     display: flex;
     font-weight: 700;
     color: rgb(13, 13, 19);
 }
 
-
-
-
-
-
 .btn {
     position: relative;
     display: inline-block;
-    padding: 20px 80px;
-    margin: 15px 30px;
-    border: none;
-    background: #f2f2f2;
+    width: max-content;
+    padding: 15px 20px;
+    border: solid;
+    background: transparent;
+    border-color: black;
     cursor: pointer;
-    font-size: inherit;
-    font-weight: light;
+    font-size: clamp(20px,1.3vw,1.3vw);
+    font-weight: bold;
     letter-spacing: 1px;
     color: inherit;
     transition: all 0.3s ease 0s;
@@ -40,69 +36,37 @@ h1{
 .btn:hover,
 .btn:focus {
   color: #f8f8f8;
-}
-
-/* Style 1 */
-.btn-1:hover,
-.btn-1:focus {
-  background-color: #1ABC9C;
-}
-
-/* Style 2 */
-.btn-2:after {
-  background: #f2f2f2;
-  height: 0; left: 0; top: 0; right: 0;
-}
-.btn-2:hover,
-.btn-2:focus{
-  background-color: transparent;
-}
-.btn-2:hover:after,
-.btn-2:focus:after{
-  background: #1ABC9C;
-  height: 100%;
+  border-color: #1ABC9C;
+  
 }
 
 /* Style 3 */
-.btn-3:after {
+.btn-left:after {
   background: #1ABC9C;
+  
   top:0; bottom: 0; left: 0; right: 100%;
+  
 }
-.btn-3:hover,
-.btn-3:focus {
+.btn-left:hover,
+.btn-left:focus {
   background-color: transparent;
 }
-.btn-3:hover:after,
-.btn-3:focus:after{
+.btn-left:hover:after,
+.btn-left:focus:after{
   right:0;
 }
 
-/* Style 4 */
-.btn-4 {
-  overflow: hidden;
-}
-.btn-4:after {
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    height: 0;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-    background-color: #1ABC9C;
-    transition: all 0.4s ease 0.2s;
-}
-.btn-4:hover:after,
-.btn-4:focus:after {
-  height: 200%;
-  opacity: 1;
-  transition: all 0.4s ease 0s;
-}
-.btn-4:hover,
-.btn-4:focus {
-  background-color: transparent;
+.full-screen{
+    width: 100vw;
+    height: 100vh;
 }
 
+.vertical-center{
+    display: flex;
+    justify-content: center;
+}
 
-/* some styles */
-body { font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; color: #666; text-align:center; }
-h1 { font-weight: normal; }
+.f-column{
+    display: flex;
+    flex-direction: column;
+}
