@@ -8,9 +8,13 @@ body {
 h1 {
     font-family: "Open Sans", 'Work Sans', sans-serif;
     font-size: clamp(40px, 3vw, 4vw);
-    display: flex;
+    /* display: flex; */
     font-weight: 700;
     color: #2b2b2b;
+}
+
+span{
+    color: #1ABC9C !important;
 }
 
 h2 {
