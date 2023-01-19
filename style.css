@@ -8,9 +8,14 @@ body {
 h1 {
     font-family: "Open Sans", 'Work Sans', sans-serif;
     font-size: clamp(40px, 3vw, 4vw);
-    display: flex;
+    /* display: flex; */
     font-weight: 700;
     color: #2b2b2b;
+}
+
+span{
+    /* color: #1ABC9C; */
+    color: linear-gradient(90deg,#02aab0, #00cdac);
 }
 
 h2 {
@@ -67,12 +72,14 @@ p {
 
 .btn:hover {
     color: #f7f7f7;
-    border-color: #1ABC9C;
+    /* border-color: #1ABC9C; */
+    border-color: linear-gradient(90deg,#02aab0, #00cdac);
 
 }
 
 .btn-left:after {
-    background: #1ABC9C;
+    /* background: #1ABC9C; */
+    background: linear-gradient(90deg,#02aab0, #00cdac);
     top: 0;
     bottom: 0;
     left: 0;
@@ -94,7 +101,8 @@ p {
     width: max-content;
     padding: 5px 20px;
     border: solid;
-    background: #1ABC9C;
+    /* background: #1ABC9C; */
+    background: transparent;
     border-color: #f7f7f7;
     color: #f7f7f7;
     cursor: pointer;
@@ -115,6 +123,7 @@ p {
 
 .btn-w:hover {
     color: #1ABC9C;
+    color: linear-gradient(90deg,#02aab0, #00cdac);
     border-color: #f7f7f7;
 
 }
@@ -194,7 +203,8 @@ p {
     position: relative;
     width: 100vw;
     /* height: fit-content; */
-    background-color: #1ABC9C;
+    /* background-color: #1ABC9C; */
+    background: linear-gradient(90deg,#02aab0, #00cdac);
     /* background-color: antiquewhite; */
     z-index: 0;
 }
@@ -203,7 +213,8 @@ p {
     position: relative;
     width: 100vw;
     height: fit-content;
-    background-color: #1ABC9C;
+    /* background-color: #1ABC9C; */
+    background: linear-gradient(90deg,#02aab0, #00cdac);
     /* background-color: antiquewhite; */
     z-index: 0;
 }
@@ -228,6 +239,11 @@ img {
     border-radius: 10px;
     margin-right: 2vw;
     margin-left: 2vw;
+    transition: all 0.3s ease 0s;
+}
+
+img:hover{
+    transform: scale(1.02);
 }
 
 .small-square {
@@ -383,11 +399,13 @@ img {
 }
 .arrow:hover::after {
     transform: rotate(45deg);
-    border-color: #1ABC9C;
+    /* border-color: #1ABC9C; */
+    border-color: linear-gradient(90deg,#02aab0, #00cdac);
     height: 90%;
 }
 .arrow:hover::before {
-    border-color: #1ABC9C;
+    /* border-color: #1ABC9C; */
+    border-color: linear-gradient(90deg,#02aab0, #00cdac);
     transform: scale(0.8);
 }
 
