@@ -15,7 +15,10 @@ h1 {
 
 span{
     /* color: #1ABC9C; */
-    color: linear-gradient(90deg,#02aab0, #00cdac);
+    background: linear-gradient(90deg,#02aab0, #00cdac);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 h2 {
