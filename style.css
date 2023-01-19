@@ -34,10 +34,10 @@ h3 {
 }
 
 p {
-    font-family: "Open Sans", 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: #f7f7f7;
     font-size: clamp(16px, 0.5vw, 2.2vw);
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
@@ -210,6 +210,7 @@ p {
 
 #contact-div{
     background-color: #f7f7f7;
+    z-index: 0;
 }
 
 img {
