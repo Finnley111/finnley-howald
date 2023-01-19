@@ -185,7 +185,7 @@ p {
     margin-top: 2vh;
 }
 
-#title-div {
+.title-left {
     position: relative;
     margin-left: 22vw;
 }
@@ -337,6 +337,8 @@ img {
 .arrow {
     width: 6vmin;
     height: 6vmin;
+    position: relative;
+    top: -22%;
     /* box-sizing: border-box;
     position: absolute;
     left: 50%;

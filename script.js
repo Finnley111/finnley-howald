@@ -1,16 +1,15 @@
-// const aboutMeBtn = document.getElementById("about-me");
-// const experienceBtn = document.getElementById("experience");
-// const contactMeBtn = document.getElementById("contact-me");
-// // const aboutMeHead = document.getElementById("about-me-header");
-// const educationBtn = document.getElementById("education-btn");
-// const interestsBtn = document.getElementById("interests-btn");
-// const awardsBtn = document.getElementById("awards-btn");
-// const secondSection = document.getElementById("second-page");
 const learnMoreBtn = document.getElementById("learn-more");
 const aboutMeDiv = document.getElementById("about-me-div");
+const upBtn = document.getElementById("up-btn");
+const titleDiv =document.getElementById("title-div");
 
 learnMoreBtn.addEventListener("click", function(){
     aboutMeDiv.scrollIntoView();
+    console.log("clicked")
+});
+
+upBtn.addEventListener("click", function(){
+    titleDiv.scrollIntoView();
     console.log("clicked")
 });
 
