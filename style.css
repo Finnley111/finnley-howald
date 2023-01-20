@@ -240,13 +240,19 @@ p {
 
 img {
     border-radius: 10px;
-    margin-right: 2vw;
-    margin-left: 2vw;
     transition: all 0.3s ease 0s;
 }
 
 img:hover{
     transform: scale(1.02);
+}
+
+.marg-right{
+    margin-right: 2vw;
+}
+
+.marg-left{
+    margin-left: 2vw;
 }
 
 .small-square {
