@@ -1,7 +1,7 @@
 .scroll-parent {
     height: 100vh;
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     scroll-behavior: smooth;
 }
 
@@ -10,6 +10,17 @@
     height: 100vh;
     overflow-y: scroll;
 }
+
+
+/* Add this class to the page where you want horizontal scrolling */
+.horizontal-scroll-page {
+    display: flex;
+    overflow-x: scroll; /* Enable horizontal scrolling for the container */
+    scroll-snap-type: x mandatory; /* Enable horizontal scroll snapping */
+    width: 100%; /* Set the width of the horizontal-scrolling page */
+    flex-shrink: 0; /* Prevent this page from shrinking */
+}
+
 
 .earth-screen{
     width: 100%;
